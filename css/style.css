@@ -1,0 +1,262 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #1D1F20;
+}
+.container {
+	margin: auto;
+	margin-top: 8vmin;
+	width: 85%;
+	border-radius: 1vmin;
+	background-color: #2A2C2E;
+	font-family: calibri;
+}
+.flex-container {
+	display: flex;
+	flex-direction: row;
+}	
+.flex {
+	flex-grow: 1;
+}
+.container1 {
+	padding-top: 5vmin ;
+	padding-bottom: 2.5vmin ;
+	padding-left: 3vw;
+}
+.selectName {
+	display: flex;
+	flex-direction: row;
+	margin-right: 3vw;
+}
+.selectName div{
+	font-size: 3vw;
+}
+.Deposit {
+	margin-right: 3vw;
+	color: #8DD294;
+	border-bottom: 0.35vmin solid #8DD294;
+	cursor: pointer;
+}
+.Withdraw {
+	border-bottom: 0.35vmin solid rgba(255,255,255,0);
+	color: #fff;
+	cursor: pointer;
+}
+.Withdraw:hover {
+	border-bottom: 0.35vmin solid rgba(255,255,255,1);
+}
+.money {
+	margin-left: auto;
+	color: white;
+	float: right;
+	text-align: right;
+	margin-top: -3vmin;
+}
+.money ol {
+	margin: 0;
+	padding: 0;
+}
+.balance {
+	color: #848484;
+	font-size: 1.5vw;
+}
+.attention {
+	display: flex;
+	flex-direction: row;
+	color: white;
+	padding: 3vmin 0 4vmin 0;
+	font-size: 1.5vw;
+	margin-right: 3vw;
+}
+.att span{
+	align-self: center;
+	background-color: #FFB661;
+	border-radius: 3vmin;
+	padding: 0vmin 0.75vw;
+}
+.attText {
+	align-self: center;
+	padding-left: 1vmin;
+}
+.status {
+	width: 25vw;
+	text-align: right;
+	flex-shrink: 0;
+	margin-left: auto;
+	color: #848484;
+	padding-left: 5vmin;
+}
+.Pay {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.selectPay {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2.5vmin;
+}
+.selectPay1 {
+	margin-bottom: auto;
+	width: 48vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.selectPay2 {
+	margin-top: auto;
+	width: 50vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.pay1 {
+	width: 10vw;
+	height: 10vw;
+	margin-right: 2vw;
+	background-color: #35373A;
+	text-align: center;
+	border: 0.25vw solid #35373A;
+	border-radius: 1vw;
+}
+.pay1:hover {
+	border: 0.25vw solid #8DD294;
+	cursor: pointer;
+}
+/*.pay1:first-child {
+	margin-left: 0;
+}*/
+.pay1 .img1{
+	margin-top: 3vw;
+	width: 10vw;
+}
+.pay1:nth-child(3) .img1 {
+	margin-top: 2vw;
+}
+.pay2 {
+	width: 10vw;
+	height: 10vw;
+	margin-right: 2vw;
+	background-color: #35373A;
+	text-align: center;
+	border: 0.25vw solid #35373A;
+	border-radius: 1vw;
+}
+.pay2:hover {
+	border: 0.25vw solid #8DD294;
+	cursor: pointer;
+}
+/*.pay1:first-child {
+	margin-left: 0;
+}*/
+.txtPaypal {
+	font-size: 1vw;
+	color: #848484;
+	text-align: center;
+}
+.giveMoney {
+	flex-grow: 1;
+	width: 26vw;
+	padding: 2vmin 2vmin;
+	background-color: #35373A;
+	border-radius: 1vmin;
+	margin-bottom: 2.5vmin;
+}
+.txtDeposit {
+	font-size: 3vmin;
+	padding: 3vmin 0;
+	color: #8DD294;
+}
+.amount {
+	background-color: #2A2C2E;
+	border-radius: 1vmin;
+}
+.amount ol, .amount ul {
+	margin: 0;
+	padding: 0;
+}
+.amount ol{
+	padding: 1.5vmin 0;
+	padding-left: 1vmin;
+}
+.txtAmount {
+	color: #848484;
+}
+.cashEnter {
+	color: white;
+}
+.buttonGive {
+	padding: 4vmin 0;
+}
+.buttonGive div{
+	cursor: pointer;
+	font-size: 3vmin;
+	color: white;
+	text-align: center;
+	background: linear-gradient(243.58deg, #75CBBE 0%, #63CA7C 100%), #8DD294;
+	padding: 2vmin 0;
+	border-radius: 0.5vmin;
+	transition: all 0.15s linear;
+}
+.buttonGive div:hover {
+	box-shadow: inset 0px 0px 1vmin rgba(255, 255, 255, 1);
+}
+.txtBtn {
+	color: #848484;
+}
+.more {
+	width: 48vw;
+	padding: 5vmin 0;
+	color: #848484;
+	display: flex;
+	flex-direction: row;
+	justify-content: stretch;
+	align-items: center;
+}
+.txtOptions {
+	width: 12.5vw;
+	font-size: 1.5vw;
+}
+.hrOptions {
+	width: 35.5vw;
+	background-color: #505050;
+	height: 2px;
+	border:none;
+}
+.pay2 .imgPay1{
+	width: 8vw;
+	margin-top: 2.5vw;
+}
+.pay2 .imgPay2{
+	width: 10vw;
+	margin-top: 2.5vw;
+}
+.pay2 .imgPay3 {
+	width: 8vw;
+	margin-top: 2.5vw;
+}
+.pay2 .imgPay4{
+	width: 7vw;
+	margin-top: 1vw;
+}
+.bestSelect {
+	position: absolute;
+	margin-left: -1vw;
+	margin-top: -1.5vw;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: white;
+	font-size: 1vw;
+	justify-content: center;
+	background-color: #3F4144;
+	box-shadow: 0px 0px 1vw rgba(0, 0, 0, 0.35);
+	border-radius: 0.25vw;
+	width: 7vw;
+	padding: 0.25vw 3vw 0.25vw 0vw;
+}
+.bestSelect img {
+	width: 2vw;
+}
